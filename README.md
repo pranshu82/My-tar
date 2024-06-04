@@ -1,24 +1,26 @@
-NAME : PRANSHU KANDOI
-ROLL NO : 200101086
-PROGRAMMING LANGUAGE USER : BASH
-CS242 ASSIGNMENT 3 : PROBLEM 2
+# ShellScript_replicating_tar_command
+The command that has to be typed from command prompt to execute your programme:
+ 	 ``
+	 bash 200101086.sh [flags] [files]
+   ``
 
-to run the program:
-        bash 200101086.sh [flags] [files]
 
-various format encountered are:
+________________________________________________________________________________
 
-cf:
+
+### various format encountered are:
+
+* cf:
         bash 200101086.sh -cf [sample_file].tar [file1] [file2] [file3] ...
 
     where [files] can be any text file that needed to be archived and [sample_file] is the file name of the tar file generated
 
-cvf:
+* cvf:
         bash 200101086.sh -cvf sample_file.tar [file1] [file2] [file3] ...
 
     where [files] can be any text file that needed to be archived and [sample_file] is the file name of the tar file generated
 
-xf:
+* xf:
         bash 200101086.sh -xf [sample_file].tar
 
     where [sample_file] is the tar file that need to be extracted
