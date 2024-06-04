@@ -79,25 +79,25 @@ ________________________________________________________________________________
     bash my_tar.sh -tf test.tar
 
 
-IMPLEMENTATION:
+## IMPLEMENTATION:
 I hane tried to replicate exactly the behaviour of tar command.
 i have implemented the given above option.
 
 basically i have implemented the program in block format of 512 byte.
 the metadata is 512 byte and consists all the basic information like:
 ```
--name 100 byte
--mode 8
--uid 8
--gid 8
--size 12
--mtime 12
--chksum 8
--typeflag 1
--magic 6
--version 2
--uname 32
--gname 32
+name 100 byte
+mode 8
+uid 8
+gid 8
+size 12
+mtime 12
+chksum 8
+typeflag 1
+magic 6
+version 2
+uname 32
+gname 32
 ```
 etc. total of 512 byte of metadata 
 then content of file is there in blocks of 512 byte is there.
