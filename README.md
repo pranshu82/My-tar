@@ -11,8 +11,9 @@ ________________________________________________________________________________
 ### various format encountered are:
 
 * cf:
+  ```
         bash 200101086.sh -cf [sample_file].tar [file1] [file2] [file3] ...
-
+  ```
     where [files] can be any text file that needed to be archived and [sample_file] is the file name of the tar file generated
 
 * cvf:
